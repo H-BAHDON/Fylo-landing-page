@@ -7,6 +7,27 @@
 
 
   /* title Section */
+  #title{
+    margin: 0 7%;
+  }
+
+  .nav-list{
+    font-size: 16px;
+    letter-spacing: 3px;
+
+
+  }
+  .nav-list ul {
+    position: absolute;
+    right: 14%;
+    top: 14px;
+  }
+  .nav-list li {
+    margin: 0 13px;
+
+
+  }
+
 
 
 
