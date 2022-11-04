@@ -4,7 +4,7 @@
   }
 
   h1 {
-    font-size: 50px;
+    font-size: 46px;
     padding: 3% 0;
   }
 
@@ -58,6 +58,46 @@
   .banner-btn{
     width: 30%;
   }
+
+  /* Testimonial section */
+  #testimonial {
+    margin-top: 20%;
+  }
+
+  .testimonial-content a{
+    color:green;
+    text-decoration: underline;
+  }
+
+  /* avatar-testimonial */
+
+  .avatar-testimonial{
+    width: 14rem;
+    background-color: white;
+  }
+  .avatar-testimonial p{
+    font-size: 12px;
+  }
+
+  .avatar-img{
+    width: 20%;
+    border-radius: 50%;
+  }
+  .avatar-testimonial caption {
+    font-size: 12px;
+  }
+
+  .testimonial-img{
+    width: 90%;
+  }
+
+
+
+
+
+
+
+
 
 
   /* ** footer section ** */

@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <!-- meta links -->
   <meta charset="UTF-8">
@@ -20,52 +21,84 @@
   <title>Frontend Mentor | Fylo landing page with two column layout</title>
 
 </head>
+
 <body>
 
   <!-- title section -->
   <section id="title">
-      <nav class="navbar navbar-expand-lg ">
-        <div class="container-fluid">
-          <embed src="images/logo.svg" width="100%" height="50px">
-            <div class="nav-list">
-              <ul class="navbar-nav me-auto mb-5 mb-lg-2">
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Features</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Team</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" href="#">Sign in</a>
-                </li>
-              </ul>
-            </div>
+    <nav class="navbar navbar-expand-lg ">
+      <div class="container-fluid">
+        <embed src="images/logo.svg" width="100%" height="50px">
+        <div class="nav-list">
+          <ul class="navbar-nav me-auto mb-5 mb-lg-2">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Team</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sign in</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-
-      <div class="hero-banner">
-
-        <div class="row">
-          <div class="col-lg-6">
-            <div class="banner-content">
-              <h1>  All your files in one secure location, accessible anywhere.</h1>
-              <p>Fylo stores your most important files in one secure location.
+      </div>
+    </nav>
+    <!-- Hero-Banner -->
+    <div class="hero-banner">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="banner-content">
+            <h1> All your files in one secure location, accessible anywhere.</h1>
+            <p>Fylo stores your most important files in one secure location.
               Access them wherever you need, share and collaborate with friends,
               family, and co-workers.</p>
-              <form class="banner-form form-inline" action="index.html" method="post">
-                <input class="form-control mb-2" type="email" name="" value="" placeholder="Enter your Email">
-                <button class="banner-btn btn btn-lg btn-primary" type="button" name="button">Get Started</button>
-              </form>
-            </div>
+            <form class="banner-form form-inline" action="index.html" method="post">
+              <input class="form-control mb-2" type="email" name="" value="" placeholder="Enter your Email">
+              <button class="banner-btn btn btn-lg btn-primary" type="button" name="button">Get Started</button>
+            </form>
           </div>
+        </div>
+        <div class="col-lg-6">
+          <img class="banner-img" src="images/illustration-1.svg" alt="">
+        </div>
+      </div>
+    </div>
+  </section>
 
-          <div class="col-lg-6">
-                <img class="banner-img" src="images/illustration-1.svg" alt="">
+  <section id="testimonial">
+
+    <div class="row">
+      <div class="col-lg-6">
+        <div class="testimonial-content">
+          <h1> Stay productive, wherever you are </h1>
+          <p> Never let location be an issue when accessing your files. Fylo has you
+            covered for all of your file storage needs.</p>
+          <p> Securely share files and folders with friends, family and colleagues for
+            live collaboration. No email attachments required!</p>
+            <a href="#">See how Fylo works</a>
+            <img src="images/icon-arrow.svg" alt="">
+        </div>
+
+        <div class="avatar-testimonial card">
+          <div class="card-body">
+            <img src="images/icon-quotes.svg" alt="">
+            <p>  Fylo has improved our team productivity by an order of magnitude. Since
+              making the switch our team has become a well-oiled collaboration machine.</p>
+              <img class="avatar-img" src="images/avatar-testimonial.jpg" alt="">
+              <figure>  Kyle Burton Founder & CEO, Huddle</figure>
           </div>
-
 
         </div>
+      </div>
+
+      <div class="col-lg-6">
+        <img class="testimonial-img" src="images/illustration-2.svg" alt="">
+      </div>
+
+
     </div>
+
 
 
   </section>
@@ -78,4 +111,5 @@
 
 
 </body>
+
 </html>
