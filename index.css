@@ -58,9 +58,14 @@
     width: 30%;
   }
 
+  /* styling for the curve img */
+  .curve-img{
+
+  }
+
   /* Testimonial section */
   #testimonial {
-    margin-top: 20%;
+    /* margin-top: 20%; */
     background-color: #f8f8fe;
   }
 
