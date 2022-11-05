@@ -111,9 +111,7 @@
     margin: 0% 9%;
     padding: 5% 0;
   }
-  .contact-form{
-    padding: 7%;
-  }
+
 
 
   /* footer section */
@@ -145,16 +143,7 @@
   }
 
 
-
-
-
-
-
-
-
-
-
   /* ** footer section ** */
 
-  /* .attribution { font-size: 11px; text-align: center; }
-  .attribution a { color: hsl(228, 45%, 44%); } */
+  .attribution { font-size: 11px; text-align: center; }
+  .attribution a { color: hsl(228, 45%, 44%); }
