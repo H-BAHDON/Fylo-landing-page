@@ -1,6 +1,5 @@
   body {
   background-color: white;
-  margin: 2% 9%;
   }
 
   h1 {
@@ -8,14 +7,12 @@
     padding: 3% 0;
   }
 
-  p{
-    padding: 3% 0;
-    color: grey;
-    font-size: 25px;
-  }
 
 
   /* title Section */
+  .navbar {
+    margin: 2% 9%;
+  }
 
   /* nav-bar section */
   .nav-list{
@@ -32,6 +29,7 @@
     margin: 0 13px;
   }
   .hero-banner{
+    margin: 2% 9%;
     width: 100%
     height: 500px;
   }
@@ -60,19 +58,30 @@
   }
 
   /* Testimonial section */
+
   #testimonial {
     margin-top: 20%;
+    background-color: #f8f8fe;
+  }
+  .testimonial-content {
+    margin: 2% 9%;
   }
 
   .testimonial-content a{
     color:green;
-    text-decoration: underline;
+    text-decoration: underline
+  }
+
+  .testimonial-background-img{
+    width: 100%;
+    position: relative;
+    bottom: 139px;
   }
 
   /* avatar-testimonial */
 
   .avatar-testimonial{
-    width: 14rem;
+    width: 16rem;
     background-color: white;
   }
   .avatar-testimonial p{
@@ -80,12 +89,14 @@
   }
 
   .avatar-img{
-    width: 20%;
+    width: 34%;
     border-radius: 50%;
   }
-  .avatar-testimonial caption {
-    font-size: 12px;
+
+  hgroup{
+    float: right;
   }
+
 
   .testimonial-img{
     width: 90%;
