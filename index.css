@@ -109,8 +109,11 @@
   }
   .contact-content{
     margin: 0% 9%;
+    padding: 5% 0;
   }
-
+  .contact-form{
+    padding: 7%;
+  }
 
 
   /* footer section */
@@ -130,7 +133,7 @@
     --bs-list-group-color: #ffffff;
     --bs-list-group-bg: none;
   }
-  
+
   .footer-col{
     margin: 3% 0%;
     padding: 94px;
