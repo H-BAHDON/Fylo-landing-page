@@ -104,11 +104,46 @@
 
   /* contact section */
   .contact{
+    color: white;
     background-color: #585989;
   }
   .contact-content{
     margin: 0% 9%;
   }
+
+
+
+  /* footer section */
+  .logo_color{
+    filter: brightness(0) saturate(100%) invert(99%) sepia(17%) saturate(2%) hue-rotate(72deg) brightness(113%) contrast(100%);
+  }
+
+  .footer{
+    color: white;
+    background-color: #070439;
+  }
+  .footer-content{
+    margin: 0% 5%;
+    color: white;
+  }
+  .list-group {
+    --bs-list-group-color: #ffffff;
+    --bs-list-group-bg: none;
+  }
+  .footer-row {
+    margin: 0% 6%;
+  }
+  .footer-col{
+    margin: 3% 0%;
+    padding: 94px;
+  }
+  .footer-icon i {
+    padding:3%;
+    font-size: 20px;
+
+  }
+
+
 
 
 
