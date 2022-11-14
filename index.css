@@ -53,6 +53,9 @@
     /* display: inline-block;
     width: 50%; */
   }
+  button{
+        margin-top: 25px;
+  }
 
   .banner-btn {
     width: 30%;
